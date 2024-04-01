@@ -9,6 +9,7 @@ import furniture from "@/assets/img/home/services/furniture.jpg"
 import timber from "@/assets/img/home/services/timber.jpg"
 import hardware from "@/assets/img/home/services/hardware.jpg"
 import essentials from "@/assets/img/home/services/essentials.jpg"
+import cta from "@/assets/img/cta.png"
 
 const activeItem =  ref(-1)
 const products =  [
@@ -68,33 +69,38 @@ const products =  [
                             style="color: transparent;" src="@/assets/img/home/about-image.108396fb.jpg"></div>
                     <ul class="lg:mt-0 mt-20 lg:pb-0 pb-10">
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between"><svg stroke-width="1"
-                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000"><text
+                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation"><text
                                     x="0%" dominant-baseline="middle" y="70%">01</text></svg>
                             <div class="max-w-[534px]">
                                 <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-secondary">
                                     Innovation Beyond Boundaries</h4>
+                                <span> <img src="@/assets/img/line04.svg" alt="Line" class="h-3"></span>
                                 <p class="text-lg text-secondary font-normal">We thrive on challenging the
                                     norms, infusing each project with fresh, innovative perspectives that defy
                                     convention.</p>
                             </div>
                         </li>
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between"><svg stroke-width="1"
-                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000"><text
+                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation"><text
                                     x="0%" dominant-baseline="middle" y="70%">02</text></svg>
                             <div class="max-w-[534px]">
                                 <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-secondary">
                                     Visionaries at Work</h4>
+                                <span> <img src="@/assets/img/line04.svg" alt="Line" class="h-3"></span>
+
                                 <p class="text-lg text-secondary font-normal">We thrive on challenging the
                                     norms, infusing each project with fresh, innovative perspectives that defy
                                     convention.</p>
                             </div>
                         </li>
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between"><svg stroke-width="1"
-                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000"><text
+                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation"><text
                                     x="0%" dominant-baseline="middle" y="70%">03</text></svg>
                             <div class="max-w-[534px]">
                                 <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-secondary">Awards
                                     and Acclaim</h4>
+                                <span> <img src="@/assets/img/line04.svg" alt="Line" class="h-3"></span>
+
                                 <p class="text-lg text-secondary font-normal">We thrive on challenging the
                                     norms, infusing each project with fresh, innovative perspectives that defy
                                     convention.</p>
@@ -107,18 +113,16 @@ const products =  [
 
     </section>
 
-    
+
 
 
     <section class="service">
         <div class="flex flex-col sm:flex-row lg:flex-nowrap flex-wrap lg:pt-30 2sm:pt-20 pt-14">
 
-            <div class="flex-grow sm:min-h-[750px] min-h-[420px] overflow-hidden group transition-all duration-700 relative" 
-            v-for="(product,index) in products" :key="index"
-            @mouseover="activeItem = index"
-            @mouseleave="activeItem = -1"
-            :class="activeItem === index ? 'lg:basis-[47%] basis-[50%]' : 'lg:basis-[20%] basis-[30%]'"
-            >
+            <div class="flex-grow sm:min-h-[750px] min-h-[420px] overflow-hidden group transition-all duration-700 relative"
+                v-for="(product,index) in products" :key="index" @mouseover="activeItem = index"
+                @mouseleave="activeItem = -1"
+                :class="activeItem === index ? 'lg:basis-[47%] basis-[50%]' : 'lg:basis-[20%] basis-[30%]'">
                 <div
                     class="absolute w-full h-full top-0 left-0 flex flex-col justify-between 2xl:pl-[30px] pl-5 pr-5 2xl:pr-0 py-[30px] after:absolute after:left-0 after:bottom-0 after:contents-[&quot;&quot;] after:w-full after:h-1/2 after:bg-bottom-liner after:z-[-1] z-10">
                     <h3
@@ -127,12 +131,13 @@ const products =  [
                     <div class="flex 2xl:flex-row flex-col items-start justify-between 2xl:items-end">
                         <a class="text-3xl 2sm:text-4xl font-bold leading-135 text-primary max-w-60 2xl:min-w-56 min-w-48 relative"
                             href="/project-single/">{{ product.title}}</a>
-                        <p class="text-secondary-foreground font-semibold 3xl:max-w-[421px] 2xl:max-w-80 transition-all duration-700 3xl:min-w-[420px] xl:min-w-80 min-w-72 overflow-hidden opacity-100">
+                        <p
+                            class="text-primary font-semibold 3xl:max-w-[421px] 2xl:max-w-80 transition-all duration-700 3xl:min-w-[420px] xl:min-w-80 min-w-72 overflow-hidden opacity-100">
                             {{ product.caption}}
                         </p>
                     </div>
                 </div>
-                <div class="overlay absolute inset-0 bg-black opacity-50"></div> 
+                <div class="overlay absolute inset-0 bg-black opacity-50"></div>
                 <img alt="Cozy Living Room" loading="lazy" width="721" height="750" decoding="async" data-nimg="1"
                     class="h-full sm:min-h-[750px] min-h-[420px] w-full object-cover" style="color: transparent;"
                     :src="product.imageSrc">
@@ -233,6 +238,23 @@ const products =  [
         </div>
 
     </section>
+
+    <!-- CTA -->
+    <section class="container mx-auto py-20">
+        <div class="bg-center bg-no-repeat lg:pt-[117px] pt-24 pb-[69px] lg:pl-[148px] pl-10 lg:pr-[133px] 2sm:pr-24 pr-10 flex md:flex-row flex-col justify-between md:items-end items-start"
+        :style="{ 'background-image': 'url(' + cta + ')' }">
+            <h1
+                class="text-6xl font-extrabold text-secondary max-w-[600px] text-shadow">
+                Ready to craft a sustainable future with us?</h1><a href="/contact/"><button
+                    class="flex items-center justify-center gap-2.5 whitespace-nowrap sm:text-2xl text-xl font-bold border-2 px-10 sm:py-[15px] py-3 relative z-10 overflow-hidden after:absolute after:right-0 after:top-0 after:bottom-0 after:z-[-1] after:w-full after:transition-all after:duration-500 hover:after:w-0 transition-all duration-500 after:left-0 after:bg-secondary text-primary border-secondary hover:text-secondary mt-6 md:mt-0">
+                    Let’s Talk <svg width="35" height="22" viewBox="0 0 35 22" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M24 0.585815L34.4142 10.9999L24 21.4142L22.5858 20L30.5857 12L0 12L2.38419e-07 10L30.5858 10L22.5858 2.00003L24 0.585815Z">
+                        </path>
+                    </svg> </button></a>
+        </div>
+    </section>
 </template>
 
 
@@ -248,6 +270,10 @@ img.home-about:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example values */
 }
 
 </style>

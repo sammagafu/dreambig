@@ -3,8 +3,7 @@
       <Slide v-for="slide in slider" :key="slide">
         <div class="relative">
             <div class="carousel__item"><img :src="slide.imageSrc" alt="Object Image" /></div>
-            <h1 class="absolute text-8xl text-white top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold leading-110">{{ slide.title }}</h1>
-            <p class="text-white">{{ slide.caption }}</p>
+            <h1 class="absolute text-7xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-bold leading-110 text-white text-shadow">{{ slide.title }}</h1>
         </div>
         <!-- {{ slide.title }} -->
         <div class="">
@@ -60,4 +59,10 @@
     },
   })
   </script>
+
+  <style scoped>
+  .text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Example values */
+}
+  </style>
   
