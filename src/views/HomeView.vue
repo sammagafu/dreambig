@@ -1,0 +1,253 @@
+<script setup>
+import Slider from '@/components/body/Slider.vue';
+import TopNavigationBar from '@/components/header/TopNavigationBar.vue';
+import { ref } from 'vue';
+// import Slid from "@/components/body/Slider.vue";
+
+// images for services
+import furniture from "@/assets/img/home/services/furniture.jpg"
+import timber from "@/assets/img/home/services/timber.jpg"
+import hardware from "@/assets/img/home/services/hardware.jpg"
+import essentials from "@/assets/img/home/services/essentials.jpg"
+
+const activeItem =  ref(-1)
+const products =  [
+        {
+        imageSrc: furniture,
+        title: 'Furnitures Fusion',
+        caption: 'Where Wood Meets Style',
+      },
+      {
+        imageSrc: timber,
+        title: 'Timber Treasure',
+        caption: "Crafting Nature's Elegance"
+        },
+        
+      {
+        imageSrc: hardware,
+        title: 'Furniture Fusion',
+        caption: "Functional Artistry in Every Detai",
+      },
+      {
+        imageSrc: essentials,
+        title: 'Essential Elements',
+        caption: "Sustainable Solutions for Modern Living",
+      },
+      ]
+
+</script>
+
+<template>
+    <div class="mb-44">
+        <Slider></Slider>
+    </div>
+
+    <section class="about">
+
+        <div class="container my-48 mx-auto">
+            <div class="">
+                <h2 class="text-8xl font-extrabold mb-2">
+                    We are <br />Dreamers </h2>
+                <span><img src="@/assets/img/line03.svg" alt="deski tailwind css saas software startup template"></span>
+                <div class="flex md:flex-row flex-col justify-between md:items-center">
+                    <h5 class="text-black lg:text-[18px] sm:text-3xl text-2xl font-semibold w-3/4">
+                        Welcome to Dream Big Projects Company Ltd, where dreams Turned into Art, Join us on our journey
+                        as we explore the endless possibilities of wood and metal, pushing the boundaries of creativity
+                        and craftsmanship to new heights. Together, let's dream big and create something truly
+                        extraordinary.
+                    </h5>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="bg-primary xl:mt-[220px] lg:mt-25 md:mt-44 mt-[540px] xl:mb-20 mb-0 undefined">
+            <div class="container mx-auto">
+                <div class="flex lg:flex-row flex-col items-center gap-[66px]">
+                    <div class="md:-mt-25 -mt-[70px] -mb-25" style="opacity: 1; transform: none;"><img alt="about-bg"
+                            style="color: transparent;" src="@/assets/img/home/about-image.108396fb.jpg"></div>
+                    <ul class="lg:mt-0 mt-20 lg:pb-0 pb-10">
+                        <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between"><svg stroke-width="1"
+                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000"><text
+                                    x="0%" dominant-baseline="middle" y="70%">01</text></svg>
+                            <div class="max-w-[534px]">
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-secondary">
+                                    Innovation Beyond Boundaries</h4>
+                                <p class="text-lg text-secondary font-normal">We thrive on challenging the
+                                    norms, infusing each project with fresh, innovative perspectives that defy
+                                    convention.</p>
+                            </div>
+                        </li>
+                        <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between"><svg stroke-width="1"
+                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000"><text
+                                    x="0%" dominant-baseline="middle" y="70%">02</text></svg>
+                            <div class="max-w-[534px]">
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-secondary">
+                                    Visionaries at Work</h4>
+                                <p class="text-lg text-secondary font-normal">We thrive on challenging the
+                                    norms, infusing each project with fresh, innovative perspectives that defy
+                                    convention.</p>
+                            </div>
+                        </li>
+                        <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between"><svg stroke-width="1"
+                                class="h-[65px] w-20 relative -top-2 left-3 xl:text-6xl text-5xl mb-3 lg:mb-0 inline-block font-extrabold leading-120  animate-text-line-animation stroke-secondary stroke-dasharray-1000 stroke-dashoffset-1000"><text
+                                    x="0%" dominant-baseline="middle" y="70%">03</text></svg>
+                            <div class="max-w-[534px]">
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-secondary">Awards
+                                    and Acclaim</h4>
+                                <p class="text-lg text-secondary font-normal">We thrive on challenging the
+                                    norms, infusing each project with fresh, innovative perspectives that defy
+                                    convention.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    
+
+
+    <section class="service">
+        <div class="flex flex-col sm:flex-row lg:flex-nowrap flex-wrap lg:pt-30 2sm:pt-20 pt-14">
+
+            <div class="flex-grow sm:min-h-[750px] min-h-[420px] overflow-hidden group transition-all duration-700 relative" 
+            v-for="(product,index) in products" :key="index"
+            @mouseover="activeItem = index"
+            @mouseleave="activeItem = -1"
+            :class="activeItem === index ? 'lg:basis-[47%] basis-[50%]' : 'lg:basis-[20%] basis-[30%]'"
+            >
+                <div
+                    class="absolute w-full h-full top-0 left-0 flex flex-col justify-between 2xl:pl-[30px] pl-5 pr-5 2xl:pr-0 py-[30px] after:absolute after:left-0 after:bottom-0 after:contents-[&quot;&quot;] after:w-full after:h-1/2 after:bg-bottom-liner after:z-[-1] z-10">
+                    <h3
+                        class="text-6xl font-extrabold leading-120 transition-all duration-700 text-transparent text-primary">
+                        {{ index }}</h3>
+                    <div class="flex 2xl:flex-row flex-col items-start justify-between 2xl:items-end">
+                        <a class="text-3xl 2sm:text-4xl font-bold leading-135 text-primary max-w-60 2xl:min-w-56 min-w-48 relative"
+                            href="/project-single/">{{ product.title}}</a>
+                        <p class="text-secondary-foreground font-semibold 3xl:max-w-[421px] 2xl:max-w-80 transition-all duration-700 3xl:min-w-[420px] xl:min-w-80 min-w-72 overflow-hidden opacity-100">
+                            {{ product.caption}}
+                        </p>
+                    </div>
+                </div>
+                <div class="overlay absolute inset-0 bg-black opacity-50"></div> 
+                <img alt="Cozy Living Room" loading="lazy" width="721" height="750" decoding="async" data-nimg="1"
+                    class="h-full sm:min-h-[750px] min-h-[420px] w-full object-cover" style="color: transparent;"
+                    :src="product.imageSrc">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- our team section -->
+    <section class="team py-48">
+        <div class="container mx-auto py-20">
+            <h2 class="text-8xl font-extrabold mb-2">
+                Meet the<br />Dreamers </h2>
+            <div class="flex md:flex-row flex-col justify-between md:items-center">
+                <h5 class="text-black lg:text-[18px] sm:text-3xl text-2xl font-semibold">
+                    our team is the heart and soul behind every masterpiece we create. Comprised of passionate artisans,
+                    designers, and eco-conscious individuals, our team is dedicated to bringing your dreams to life
+                    while upholding our commitment to sustainability and craftsmanship.
+                </h5>
+            </div>
+        </div>
+
+        <div class="container mx-auto">
+            <div class="grid overflow-hidden rounded-[10px] sm:grid-cols-2 lg:grid-cols-4 gap-[66px]">
+                <!-- Team Item -->
+                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0" data-jos_once="1"
+                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
+                    <div class="group relative overflow-hidden">
+                        <img src="@/assets/img/team/team-img-1.jpg" alt="team-img-1" width="324" height="320"
+                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
+                        <div
+                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
+                            <a href="#"
+                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Cameron
+                                Williamson</a>
+                            <div class="text-sm">
+                                <span>CEO@Company</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Item -->
+                <!-- Team Item -->
+                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0.3" data-jos_once="1"
+                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
+                    <div class="group relative overflow-hidden">
+                        <img src="@/assets/img/team/team-img-2.jpg" alt="team-img-2" width="324" height="320"
+                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
+                        <div
+                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
+                            <a href="#"
+                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Leslie
+                                Alexander</a>
+                            <div class="text-sm">
+                                <span>Senior SEO Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Item -->
+                <!-- Team Item -->
+                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0.6" data-jos_once="1"
+                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
+                    <div class="group relative overflow-hidden">
+                        <img src="@/assets/img/team/team-img-3.jpg" alt="team-img-3" width="324" height="320"
+                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
+                        <div
+                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
+                            <a href="#"
+                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Esther
+                                Howard</a>
+                            <div class="text-sm">
+                                <span>WP Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Item -->
+                <!-- Team Item -->
+                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0.9" data-jos_once="1"
+                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
+                    <div class="group relative overflow-hidden">
+                        <img src="@/assets/img/team/team-img-4.jpg" alt="team-img-4" width="324" height="320"
+                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
+                        <div
+                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
+                            <a href="#"
+                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Kristin
+                                Watson</a>
+                            <div class="text-sm">
+                                <span>SEO Executive</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Item -->
+            </div>
+        </div>
+
+    </section>
+</template>
+
+
+<style scoped>
+img.home-about {
+    z-index: -999;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+img.home-about:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+
+}
+
+</style>
