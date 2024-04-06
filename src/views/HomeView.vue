@@ -244,7 +244,7 @@ const products =  [
         <div class="bg-center bg-no-repeat lg:pt-[117px] pt-24 pb-[69px] lg:pl-[148px] pl-10 lg:pr-[133px] 2sm:pr-24 pr-10 flex md:flex-row flex-col justify-between md:items-end items-start"
         :style="{ 'background-image': 'url(' + cta + ')' }">
             <h1
-                class="text-6xl font-extrabold text-secondary max-w-[600px] text-shadow">
+                class="text-6xl font-extrabold text-green-900 max-w-[600px] text-shadow">
                 Ready to craft a sustainable future with us?</h1><a href="/contact/"><button
                     class="flex items-center justify-center gap-2.5 whitespace-nowrap sm:text-2xl text-xl font-bold border-2 px-10 sm:py-[15px] py-3 relative z-10 overflow-hidden after:absolute after:right-0 after:top-0 after:bottom-0 after:z-[-1] after:w-full after:transition-all after:duration-500 hover:after:w-0 transition-all duration-500 after:left-0 after:bg-secondary text-primary border-secondary hover:text-secondary mt-6 md:mt-0">
                     Let’s Talk <svg width="35" height="22" viewBox="0 0 35 22" fill="currentColor"
