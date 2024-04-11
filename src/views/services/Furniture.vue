@@ -21,7 +21,11 @@
                   <div class="flex">
                       <div class="flex-1">
                           <img class="w-full mb-[30px]" src="@/assets/img/services/furniture.jpg" alt="">
-                          <div class="mb-[30px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered humour, or randomised words which don't look even slightly believable. If you are going to passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum Internet tend to repeat predefined chunks as necessary, making this the first generator on the Internet. It dictionary over combined with a handful of model generate Lorem reasonable.</div>
+                          <div class="mb-[30px]">Discover the essence of elegance and sustainability with Dream Big Projects Company Ltd's furniture collection. Crafted from responsibly sourced Pine, Muninga, Mkongo, Panga Panga, and Teak Wood, each piece embodies artistry and functionality. From the rich hues of Muninga to the timeless elegance of Teak Wood, our furniture reflects the beauty of nature while embodying modern design sensibilities.
+
+<br><br> your space with our eco-friendly designs, where beauty meets purpose. Whether it's a cozy chair, a sturdy table, or a stylish cabinet, every piece is meticulously crafted by our skilled artisans. Experience the perfect blend of form and function, and join us in our journey towards a more sustainable future.<br><br> 
+
+Welcome to the world of Dream Big Projects Company Ltd, where furniture isn't just about sitting or storing – it's about making a statement and leaving a legacy.</div>
                       </div>
                       <div class="hidden xl:block px-[50px]"></div>
                       <Sidebar></Sidebar>

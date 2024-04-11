@@ -39,7 +39,7 @@
                               
                               <div class="mt-[100px] bg-white p-[30px]">
                                   <div class="leading-[26px] text-[26px] font-medium text-[#171a1d]">Need Any Help?</div>
-                                  <div class="mt-[10px]">Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto refreshing.</div>
+                                  <div class="mt-[10px]">Experience craftsmanship and sustainability with Dream Big Projects</div>
                                   <div class="mt-[30px] bg-[#171a1d] p-[30px] text-center">
                                       <div class="leading-[24px] text-[24px] font-[Caveat] font-medium text-[#ff5100]">Call Us 24/7</div>
                                       <div class="mt-[10px] text-white leading-[26px] text-[26px] font-medium"><a href="tel:+255757188271">+255 757 188 271</a></div>
