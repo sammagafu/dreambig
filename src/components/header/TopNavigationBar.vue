@@ -32,7 +32,7 @@ import logoUrl from '@/assets/img/logo-02.svg';
           <router-link :to="{ name: 'furniture' }" class="block py-2 px-3 text-primary bg-black rounded md:bg-transparent md:text-primary md:p-0 dark:text-primary md:dark:text-primary">Furnitures</router-link>
         </li>
         <li>
-          <router-link :to="{ name: 'essentials' }" class="block py-2 px-3 text-primary bg-black rounded md:bg-transparent md:text-primary md:p-0 dark:text-primary md:dark:text-primary">Essesntials</router-link>
+          <router-link :to="{ name: 'essentials' }" class="block py-2 px-3 text-primary bg-black rounded md:bg-transparent md:text-primary md:p-0 dark:text-primary md:dark:text-primary">Essentials</router-link>
         </li>
         <li>
           <router-link :to="{ name: 'contact' }" class="block py-2 px-3 text-primary bg-black rounded md:bg-transparent md:text-primary md:p-0 dark:text-primary md:dark:text-primary">Contact Us</router-link>

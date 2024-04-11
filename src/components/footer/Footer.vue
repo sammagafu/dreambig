@@ -9,7 +9,7 @@
     </router-link>
                         <h5 class="xl:text-2xl text-xl font-semibold text-primary leading-160 pt-2.5 pb-3">
                             Shaping Interior Excellence</h5>
-                        <ul class="flex items-center gap-7.5">
+                        <!-- <ul class="flex items-center gap-7.5">
                             <li><a class="font-semibold text-lg relative after:contents-[&quot;&quot;] after:absolute after:h-[20px] after:w-[1px] after:bg-black after:rotate-[22deg] after:top-1/2 after:-translate-y-1/2 after:right-[-15px] hover-underline"
                                     href=""><span>FB</span></a></li>
                             <li><a class="font-semibold text-lg relative after:contents-[&quot;&quot;] after:absolute after:h-[20px] after:w-[1px] after:bg-black after:rotate-[22deg] after:top-1/2 after:-translate-y-1/2 after:right-[-15px] hover-underline"
@@ -17,7 +17,7 @@
                             <li><a class="font-semibold text-lg relative after:contents-[&quot;&quot;] after:absolute after:h-[20px] after:w-[1px] after:bg-black after:rotate-[22deg] after:top-1/2 after:-translate-y-1/2 after:right-[-15px] hover-underline"
                                     href=""><span>TW</span></a></li>
                             <li><a class="font-semibold text-lg hover-underline" href=""><span>LI</span></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="mt-12 lg:mt-0 flex gap-x-10"><span
                             class="h-[198px] w-[1px] bg-primary block my-2.5"></span>
@@ -26,17 +26,29 @@
                                 </h5><span class="w-[99px] h-[1px] bg-primary block my-2.5"></span>
                             <div class="">
                                 <p class="text-xl font-bold text-primary">Dream Big Co. LTD, </p>
-                                <p class="text-lg text-primary">Kibada, Opposite CRDB BANK</p>
-                                <p class="text-lg  text-primary">Kigamboni Dar ES salaam, Tanzania</p>
+                                <p class="text-lg text-primary">Kibada Road, Opposite CRDB Bank Kibada Branch, Kibada, Kigamboni.</p>
+                                <p class="text-lg  text-primary">P.O. Box: 75100 Dar es Salaam, Tanzania.</p>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-12 lg:mt-0 flex gap-x-10"><span
+                            class="h-[198px] w-[1px] bg-primary block my-2.5"></span>
+                        <div>
+                            <h5 class="text-2xl font-extrabold block text-primary leading-160 ">Contacts
+                                </h5><span class="w-[99px] h-[1px] bg-primary block my-2.5"></span>
+                            
                             <div class="mt-[17px]"><a class="text-lg block text-primary hover-underline"
-                                    href="tel:+34962398486">Phone: <span>+34 96 239 84 86</span></a><a
+                                    href="tel:+255757188271">Phone: <span>(+255) 757 188 271</span></a><a
                                     class="text-lg block text-primary hover-underline"
                                     href="mailto:info@db.co.tz">Email: <span>info@db.co.tz</span></a>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
+    
                 <hr class="bg-pritext-primary">
                 <div class="py-8 lg:flex justify-between items-center"><span
                         class="text-sm text-primary block">Made with Love by <a href="">Neotelabs</a>
