@@ -143,10 +143,10 @@ const products =  [
     <!-- our team section -->
     <section class="team lg:py-48 py-24">
         <div class="container mx-auto lg:py-20 px-4">
-            <h2 class="lg:text-8xl text-4xl font-extrabold mb-2">
+            <h2 class="lg:text-8xl text-4xl font-extrabold mb-2 text-stone-600">
                 Meet the<br />Dreamers </h2>
             <div class="flex md:flex-row flex-col justify-between md:items-center">
-                <h5 class="text-black lg:text-[18px] text-base font-semibold py-4">
+                <h5 class="text-black lg:text-[18px] text-base font-semibold py-4 text-stone-600">
                     our team is the heart and soul behind every masterpiece we create. Comprised of passionate artisans,
                     designers, and talented individuals, our team is dedicated to bringing your dreams to life
                     while upholding our commitment to sustainability and craftsmanship.
@@ -232,13 +232,13 @@ const products =  [
 
     <!-- CTA -->
     <section class="container mx-auto lg:py-20">
-        <div class="bg-center bg-no-repeat lg:pt-[117px] pt-12 pb-[69px] lg:pl-[148px] pl-10 lg:pr-[133px] 2sm:pr-24 pr-10 flex md:flex-row flex-col justify-between md:items-end items-start"
+        <div class="bg-cover bg-no-repeat lg:py-48 pb-[69px] lg:pl-[148px] pl-10 lg:pr-[133px] 2sm:pr-24 pr-10 flex md:flex-row flex-col justify-between md:items-end items-start"
         :style="{ 'background-image': 'url(' + cta + ')' }">
             <h1
-                class="text-4xl lg:text-6xl font-extrabold text-green-900 lg:max-w-[600px] text-shadow sm">
+                class="text-4xl lg:text-6xl font-extrabold text-stone-200 lg:max-w-[600px] text-shadow">
                 Ready to craft a sustainable future with us?</h1>
                 <router-link :to="{name:'contact'}"><button
-    class="flex items-center justify-center gap-2.5 whitespace-nowrap sm:text-2xl text-xl font-bold border-2 px-10 sm:py-[15px] py-3 relative z-10 overflow-hidden after:absolute after:right-0 after:top-0 after:bottom-0 after:z-[-1] after:w-full after:transition-all after:duration-500 hover:after:w-0 transition-all duration-500 after:left-0 after:bg-secondary text-primary border-secondary hover:text-black mt-6 md:mt-0">
+    class="flex items-center justify-center gap-2.5 whitespace-nowrap sm:text-2xl text-xl font-bold border-2 px-10 sm:py-[15px] py-3 relative z-10 overflow-hidden after:absolute after:right-0 after:top-0 after:bottom-0 after:z-[-1] after:w-full after:transition-all after:duration-500 hover:after:w-0 transition-all duration-500 after:left-0 after:bg-stone-700 text-primary border-stone-700 hover:text-black mt-6 md:mt-0">
     Let’s Talk <svg width="35" height="22" viewBox="0 0 35 22" fill="currentColor"
         xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -265,7 +265,7 @@ img.home-about:hover {
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Example values */
+  text-shadow: 3px 3px px rgba(0, 0, 0, 0.5); /* Example values */
 }
 
 </style>
