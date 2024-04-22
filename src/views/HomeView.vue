@@ -48,12 +48,12 @@ const products =  [
         <div class="container mx-auto lg:my-48 lg:mx-auto px-4">
             <div class="flex md:flex-row flex-col justify-between md:items-center lg:space-x-24 space-y-8">
                 <div class="">
-                    <h2 class="lg:text-8xl text-6xl font-extrabold mb-2">
+                    <h2 class="lg:text-8xl text-6xl font-extrabold mb-2 text-stone-500">
                     We are <br />Dreamers </h2>
                 <span><img src="@/assets/img/line03.svg"></span>
                 </div>
                 <div class="">
-                    <h5 class="text-black text-base font-semibold">
+                    <h5 class="text-xl font-medium text-stone-500 pb-4">
                         Welcome to Dream Big Projects Company Ltd, where dreams Turned into Art, Join us on our journey
                         as we explore the endless possibilities of wood and metal, pushing the boundaries of creativity
                         and craftsmanship to new heights. Together, let's dream big and create something truly
@@ -70,32 +70,32 @@ const products =  [
                     <div class=""><img alt="about-bg"src="@/assets/img/home/about-image.108396fb.jpg" class="rounded-[1rem] shadow-sm"></div>
                     <ul class="lg:mt-0 mt-20 lg:pb-0 pb-10">
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between">
-                            <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120">01</p>
+                            <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120 text-stone-500">01</p>
                             <div class="max-w-[534px]">
-                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-black">
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">
                                     Innovation Beyond Boundaries</h4>
-                                <p class="text-lg text-black font-normal">We thrive on challenging the
+                                <p class="text-lg text-stone-500 font-normal">We thrive on challenging the
                                     norms, infusing each project with fresh, innovative perspectives that defy
                                     convention.</p>
                             </div>
                         </li>
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between">
-                            <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120">02</p>
+                            <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120 text-stone-500">02</p>
                             <div class="max-w-[534px]">
-                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-black">
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">
                                     Visionaries at Work</h4>
 
-                                <p class="text-lg text-black font-normal">We thrive on challenging the
+                                <p class="text-lg text-stone-500 font-normal">We thrive on challenging the
                                     norms, infusing each project with fresh, innovative perspectives that defy
                                     convention.</p>
                             </div>
                         </li>
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between">
-                            <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120">02</p>
+                            <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120 text-stone-500">03</p>
                             <div class="max-w-[534px]">
-                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-black">Awards
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">Awards
                                     and Acclaim</h4>
-                                <p class="text-lg text-black font-normal">We thrive on challenging the
+                                <p class="text-lg text-stone-500 font-normal">We thrive on challenging the
                                     norms, infusing each project with fresh, innovative perspectives that defy
                                     convention.</p>
                             </div>
@@ -140,102 +140,14 @@ const products =  [
     </section>
 
 
-    <!-- our team section -->
-    <section class="team lg:py-48 py-24">
-        <div class="container mx-auto lg:py-20 px-4">
-            <h2 class="lg:text-8xl text-4xl font-extrabold mb-2 text-stone-600">
-                Meet the<br />Dreamers </h2>
-            <div class="flex md:flex-row flex-col justify-between md:items-center">
-                <h5 class="text-black lg:text-[18px] text-base font-semibold py-4 text-stone-600">
-                    our team is the heart and soul behind every masterpiece we create. Comprised of passionate artisans,
-                    designers, and talented individuals, our team is dedicated to bringing your dreams to life
-                    while upholding our commitment to sustainability and craftsmanship.
-                </h5>
-            </div>
-        </div>
 
-        <div class="container mx-auto px-4">
-            <div class="grid overflow-hidden rounded-[10px] sm:grid-cols-2 lg:grid-cols-4 gap-[66px]">
-                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0.9" data-jos_once="1"
-                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
-                    <div class="group relative overflow-hidden">
-                        <img src="@/assets/img/team/team-img-2.jpg" alt="team-img-4" width="324" height="320"
-                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
-                        <div
-                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
-                            <a href="#"
-                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Liberatus C. Kaegele</a>
-                            <div class="text-sm">
-                                <span>Chief Excutive</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0.9" data-jos_once="1"
-                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
-                    <div class="group relative overflow-hidden">
-                        <img src="@/assets/img/team/team-img-4.jpg" alt="team-img-4" width="324" height="320"
-                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
-                        <div
-                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
-                            <a href="#"
-                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Aisha M. Rashid</a>
-                            <div class="text-sm">
-                                <span>Managing Director</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Item -->
-                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0" data-jos_once="1"
-                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
-                    <div class="group relative overflow-hidden">
-                        <img src="@/assets/img/team/team-img-1.jpg" alt="team-img-1" width="324" height="320"
-                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
-                        <div
-                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
-                            <a href="#"
-                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Samuel G. Elisha</a>
-                            <div class="text-sm">
-                                <span>Sales & Operations Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Item -->
-                <!-- Team Item -->
-                <div class="jos" data-jos_animation="flip-left" data-jos_delay="0.6" data-jos_once="1"
-                    data-jos_timingfunction="ease" data-jos_duration="0.7" data-jos_counter="1">
-                    <div class="group relative overflow-hidden">
-                        <img src="@/assets/img/team/team-img-3.jpg" alt="team-img-3" width="324" height="320"
-                            class="h-auto w-full transition-all duration-300 group-hover:scale-105">
-                        <div
-                            class="absolute bottom-0 left-5 right-5 translate-y-full rounded-[5px] bg-[#F5F3EA] p-5 transition-all duration-300 group-hover:-translate-y-5">
-                            <a href="#"
-                                class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Yusuph Silanga</a>
-                            <div class="text-sm">
-                                <span>Supply Chain</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Item -->
-                <!-- Team Item -->
-                
-                <!-- Team Item -->
-            </div>
-        </div>
-
-    </section>
 
     <!-- CTA -->
     <section class="container mx-auto lg:py-20">
         <div class="bg-cover bg-no-repeat lg:py-48 pb-[69px] lg:pl-[148px] pl-10 lg:pr-[133px] 2sm:pr-24 pr-10 flex md:flex-row flex-col justify-between md:items-end items-start"
         :style="{ 'background-image': 'url(' + cta + ')' }">
             <h1
-                class="text-4xl lg:text-6xl font-extrabold text-stone-200 lg:max-w-[600px] text-shadow">
+                class="text-4xl lg:text-6xl font-extrabold text-secondary lg:max-w-[600px] text-shadow">
                 Ready to craft a sustainable future with us?</h1>
                 <router-link :to="{name:'contact'}"><button
     class="flex items-center justify-center gap-2.5 whitespace-nowrap sm:text-2xl text-xl font-bold border-2 px-10 sm:py-[15px] py-3 relative z-10 overflow-hidden after:absolute after:right-0 after:top-0 after:bottom-0 after:z-[-1] after:w-full after:transition-all after:duration-500 hover:after:w-0 transition-all duration-500 after:left-0 after:bg-stone-700 text-primary border-stone-700 hover:text-black mt-6 md:mt-0">
