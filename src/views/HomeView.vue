@@ -1,6 +1,5 @@
 <script setup>
 import Slider from '@/components/body/Slider.vue';
-import TopNavigationBar from '@/components/header/TopNavigationBar.vue';
 import { ref } from 'vue';
 // import Slid from "@/components/body/Slider.vue";
 
