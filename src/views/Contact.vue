@@ -3,7 +3,7 @@
 			<div class="group relative xl:absolute top-0 right-0 bottom-0 xl:w-1/2 hway overflow-hidden hway-active">
 				<div class="absolute h-full w-0 group-[.hway-active]:w-full bg-[#FF6B00] transition-all duration-[.5s]"></div>
 				<div class="absolute h-full w-0 group-[.hway-active]:w-full bg-white transition-all duration-[.5s] group-[.hway-active]:delay-[.25s]"></div>
-				<iframe class="xl:absolute top-0 left-0 w-full h-[500px] xl:h-full grayscale origin-left scale-x-0 group-[.hway-active]:scale-x-100 transition-all duration-[.5s] group-[.hway-active]:delay-[.5s] border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2895632709!2d-74.26055820705331!3d40.69766840353705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1652077156982!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe class="xl:absolute top-0 left-0 w-full h-[500px] xl:h-full grayscale origin-left scale-x-0 group-[.hway-active]:scale-x-100 transition-all duration-[.5s] group-[.hway-active]:delay-[.5s] border-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15050.436400983326!2d39.336651855197566!3d-6.878595658331445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185dcb8bd7af8df3%3A0x39d06397b2a47dee!2sDREAM%20BIG%20PROJECTS%20CO.LTD.!5e0!3m2!1sen!2stz!4v1714839591151!5m2!1sen!2stz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 			<div class="max-w-screen-xl mx-auto px-4">
 				<div class="grid grid-cols-1 xl:grid-cols-2 xl:gap-[100px] mt-[100px] xl:mt-0">

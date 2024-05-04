@@ -90,7 +90,7 @@
             <h2 class="lg:text-8xl text-4xl font-extrabold mb-2 text-stone-600">
                 Meet the<br />Dreamers </h2>
             <div class="flex md:flex-row flex-col justify-between md:items-center">
-                <h5 class="text-black lg:text-[18px] text-base font-semibold py-4 text-stone-600">
+                <h5 class="lg:text-[18px] text-base font-semibold py-4 text-stone-600">
                     our team is the heart and soul behind every masterpiece we create. Comprised of passionate artisans,
                     designers, and talented individuals, our team is dedicated to bringing your dreams to life
                     while upholding our commitment to sustainability and craftsmanship.
@@ -110,7 +110,7 @@
                             <a href="#"
                                 class="mb-1 block font-bold leading-[1.44] text-ColorBlack transition-all duration-300 hover:text-ColorAtomicTangerine">Liberatus C. Kaegele</a>
                             <div class="text-sm">
-                                <span>Chief Excutive</span>
+                                <span>Chief Executive</span>
                             </div>
                         </div>
                     </div>
