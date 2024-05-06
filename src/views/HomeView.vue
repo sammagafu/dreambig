@@ -72,31 +72,23 @@ const products =  [
                             <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120 text-stone-500">01</p>
                             <div class="max-w-[534px]">
                                 <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">
-                                    Innovation Beyond Boundaries</h4>
-                                <p class="text-lg text-stone-500 font-normal">We thrive on challenging the
-                                    norms, infusing each project with fresh, innovative perspectives that defy
-                                    convention.</p>
+                                    Visionary Ingenuity</h4>
+                                <p class="text-lg text-stone-500 font-normal">Harnessing imagination and expertise to pioneer groundbreaking solutions and shape the future of innovation.</p>
                             </div>
                         </li>
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between">
                             <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120 text-stone-500">02</p>
                             <div class="max-w-[534px]">
-                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">
-                                    Visionaries at Work</h4>
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">Limitless Creativity</h4>
 
-                                <p class="text-lg text-stone-500 font-normal">We thrive on challenging the
-                                    norms, infusing each project with fresh, innovative perspectives that defy
-                                    convention.</p>
+                                <p class="text-lg text-stone-500 font-normal">Breaking free from constraints to explore endless possibilities and ignite transformative ideas that transcend boundaries.</p>
                             </div>
                         </li>
                         <li class="lg:flex gap-10 pb-10 last:pb-0 justify-between">
                             <p class="xl:text-6xl text-6xl mb-3 lg:mb-0 inline-block font-extrabold leading-120 text-stone-500">03</p>
                             <div class="max-w-[534px]">
-                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500">Awards
-                                    and Acclaim</h4>
-                                <p class="text-lg text-stone-500 font-normal">We thrive on challenging the
-                                    norms, infusing each project with fresh, innovative perspectives that defy
-                                    convention.</p>
+                                <h4 class="text-3xl 2sm:text-4xl font-bold leading-135 text-stone-500"> Frontier Exploration</h4>
+                                <p class="text-lg text-stone-500 font-normal">Venturing into uncharted territories, we boldly innovate, discovering new realms of possibility and redefining what's achievable.</p>
                             </div>
                         </li>
                     </ul>

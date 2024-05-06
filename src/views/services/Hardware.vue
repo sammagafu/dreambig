@@ -6,7 +6,7 @@
             <div class="flex flex-col items-center">
                 <div
                     class="bg-white px-[35px] py-[15px] rounded flex font-[Caveat] font-medium text-[20px] leading-[20px] text-[#171a1d]">
-                    <div class="pe-[10px]">You are here:</div>
+                    <!-- <div class="pe-[10px]">You are here:</div> -->
                     <a href="index.html" class="hover:text-[#ff5100]">Home</a>
                     <div class="px-[10px]">//</div>
                     <div class="text-[#ff5100]">Hardware</div>

@@ -1,5 +1,5 @@
 <template>
-                      <div class="hidden xl:block w-[350px]">
+                      <div class="hidden lg:block xl:block w-[350px]">
                           <div class="sticky top-[120px]">
                               <router-link :to="{name:'hardware'}" class="relative block mb-[20px] group text-black hover:text-white transition-all">
                                   <div class="absolute top-0 left-0 h-[55%] w-0 group-hover:w-full bg-[#171a1d] transition-all duration-[.5s]"></div>

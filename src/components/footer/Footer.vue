@@ -7,8 +7,6 @@
                         <router-link :to="{ name: 'home' }">
                             <img :src="logoUrl" alt="Logo" class="h-24">
                         </router-link>
-                        <h5 class="xl:text-2xl text-xl font-semibold text-black leading-160 pt-2.5 pb-3">
-                            It’s possible</h5>
                     </div>
                     <div class="mt-12 lg:mt-0 flex gap-x-10"><span
                             class="h-[198px] w-[1px] bg-black block my-2.5"></span>
@@ -65,5 +63,5 @@
 </template>
 
 <script setup>
-import logoUrl from '@/assets/img/logo-01.svg';
+import logoUrl from '@/assets/img/logo-bottom.svg';
 </script>
