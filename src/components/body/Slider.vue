@@ -4,10 +4,10 @@
       <div :style="{ backgroundImage: 'url(' + slide.imageSrc + ')' }" class="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] bg-cover">
         <div class="absolute inset-0 bg-black opacity-50"></div> <!-- Overlay -->
         <div class="grid items-center justify-center text-white relative h-full">
-          <div class="absolute bottom-50 left-1/2 transform -translate-x-1/2">
+          <div class="container mx-auto">
             <div class="mb-7 md:mb-8 lg:mb-9 xl:mb-10">
-              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl 3xl:text-6xl font-semibold leading-[40px] md:leading-[50px] 3xl:leading-[70px]">{{slide.title}}</h1>
-              <h4 class="text-base my-4">{{ slide.caption }}</h4>
+              <h1 class="text-xl sm:text-3xl md:text-4xl lg:text-6xl 3xl:text-6xl font-semibold leading-[40px] md:leading-[50px] 3xl:leading-[70px]">{{slide.title}}</h1>
+              <h4 class="text-xl my-4 mx-40">{{ slide.caption }}</h4>
             </div>
             <router-link :to="{name:slide.link}"><button
                 class="w-[185px] h-[48px] lg:h-[56px] bg-khaki relative before:w-8 before:h-[1px] before:bg-khaki before:absolute before:left-0 before:top-16 
@@ -54,13 +54,13 @@ const slider = ref([
   {
     imageSrc: slide2,
     title: 'Reliable Hardware Solutions for Long-Lasting Timers',
-    caption: "Invest in quality essentials that enhance your daily life. Our handpicked selection of home accents combines durability, style, and affordability, ensuring that you get the most out of every piece. Elevate your living experience with Dream Big Projects essentials.",
+    caption: "Empower your projects with precision and reliability using our high-quality hardware solutions, designed to endure while preserving our planet for generations to come",
     link : 'hardware',
   },
   {
     imageSrc: slide3,
     title: ' Essential Elegance',
-    caption: "Invest in quality essentials that enhance your daily life. Our handpicked selection of home accents combines durability, style, and affordability, ensuring that you get the most out of every piece. Elevate your living experience with Dream Big Projects essentials.",
+    caption: "Indulge in luxurious everyday essentials with our eco-friendly body care products and ambient candles, elevating your space with sophistication and serenity",
     link:'essentials',
   },
 ])

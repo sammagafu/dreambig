@@ -36,12 +36,12 @@
                                     href="mailto:info@db.co.tz">Email: <span>info@db.co.tz</span></a>
                             </div>
                             <div class="flex my-6">
-                                <a href="https://web.facebook.com/profile.php?id=61557302621441" target="_blank"
+                                <a href="https://www.facebook.com/profile.php?id=61559141528292&sk=about" target="_blank"
                                     class="text-black hover:text-gray-900 dark:hover:text-white">
                                     <i class="pi pi-facebook" style="font-size: 1.2em"></i>
                                     <span class="sr-only">Facebook page</span>
                                 </a>
-                                <a href="https://www.instagram.com/dreambig.tz/?igsh=MTQ0YTBxdDNhcTd6cA%3D%3D"
+                                <a href="https://www.instagram.com/dreambigtz/"
                                     target="_blank"
                                     class="text-black hover:text-gray-900 dark:hover:text-white ms-5">
                                     <i class="pi pi-instagram" style="font-size: 1.2em"></i>

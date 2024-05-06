@@ -26,7 +26,7 @@ const products =  [
       {
         imageSrc: hardware,
         title: 'Furniture Fusion',
-        caption: "Functional Artistry in Every Detai",
+        caption: "Functional Artistry in Every Details",
       },
       {
         imageSrc: essentials,
@@ -121,7 +121,7 @@ const products =  [
                     <h3
                         class="text-6xl font-extrabold leading-120 transition-all duration-700 text-transparent text-primary">
                         {{ index }}</h3>
-                    <div class="flex 2xl:flex-row flex-col items-start justify-between 2xl:items-end">
+                    <div class="flex 2xl:flex-row flex-col items-start justify-between 2xl:items-end mx-8">
                         <a class="text-3xl 2sm:text-4xl font-bold leading-135 text-primary max-w-60 2xl:min-w-56 min-w-48 relative"
                             href="/project-single/">{{ product.title}}</a>
                         <p
